@@ -13,13 +13,13 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (x = 1; x < 10; x++) 
+		for (x = 1; x < 10; x++)
 		{
 			if (i < x && i != x)
 			{
 				putchar(i + '0');
 				putchar(x + '0');
-				
+
 				if (i + x != 17)
 				{
 					putchar(',');
